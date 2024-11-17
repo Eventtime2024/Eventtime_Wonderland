@@ -165,17 +165,16 @@ img{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
-    width: 366px;
-    height: 178px;
+    width: 276px;
+    height: 225px;
 }
 .hand3{
     background-image: url("../img/hand3.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 276px;
-    height: 225px;
+    width: 366px;
+    height: 178px;
     margin-top: 20px;
 }
 .text4{
