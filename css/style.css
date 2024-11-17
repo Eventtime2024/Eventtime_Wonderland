@@ -203,7 +203,7 @@ img{
 }
 .site{
     text-decoration: none!important;
-    color: #072b28!important;
+    color: #ffffff!important;
     font-family: font2;
     font-size: 20px;
     display: inline-block;
@@ -217,7 +217,7 @@ footer{
     box-sizing: border-box;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255, 255, 255 , 56%);
+   background-color: rgb(0,0,0,0.45);
     margin-top: 20px;
 }
 .site:hover{
