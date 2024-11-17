@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: vrdz;
+    src: url("../fonts/Vrdznagir.otf");
+}
+ 
+img{
+    width: 100%;
+    height: 100%;
+}
+ .page{
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    background-image: url("../img/fon.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    z-index: 1;
+ }
+ .headpart{
+   width: 100%;
+   padding: 30px 60px 30px ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(0,0,0,0.45);
+   box-sizing: border-box;
+   border-bottom: 1px solid white;
+   /* position: fixed;
+   top: 0;
+   left: 0;
+   right: 0; */
+   z-index: 2;
+
+ }
+ .logo_img{
+    width: 180px;
+    height: 180px;
+    background-image: url("../img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    animation-delay: 0.5s;
+ }
+ .wonder{
+    background-image: url("../img/wonder1.svg");
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+ }
+ 
+ .heading{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --animate-duration: 2s!important;
+
+ }
+ .secondpart{
+   width: 100%;
+    z-index: 2;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .w50{
+    width: 50%;
+    background-color: rgb(0,0,0,0.45);
+    padding: 50px;
+    box-sizing: border-box;
+    border:  1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .vernagir{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;  
+    color: #000;
+    font-family: vrdz;
+    font-weight: 400;
+    color: #fff;
+     
+ }
+.text2{
+    font-size:24px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: vrdz;
+    color: #fff;
+}
+.nkar1{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-20deg);
+   
+}
+.nkar2{
+    width: 100px;
+    height: 100px;
+    z-index: 20;
+    transform: rotate(20deg);
+}
+.nkar3{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-20deg);
+  
+}
+.imgpart{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.camera{
+    background-image: url("../img/camera.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.text3{
+    font-size:24px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: vrdz;
+    color: #fff;
+    margin: 20px 0;
+}
+.camerapart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.cam{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: block;
+}
+.camera:hover{
+    opacity: 0.6;
+}
+.hand1{
+    background-image: url("../img/hand1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 140px;
+    
+}
+.hand2{
+    background-image: url("../img/hand2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+}
+.hand3{
+    background-image: url("../img/hand3.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 160px;
+    margin-top: 20px;
+}
+.text4{
+    font-size:31px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: vrdz;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-image: url("../img/icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.logo a{
+    width: 100%!important ;
+    display: block;
+    height: 100%;
+}
+.site{
+    text-decoration: none!important;
+    color: #072b28!important;
+    font-family: font2;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255 , 15%);
+    margin-top: 20px;
+}
+.site:hover{
+    opacity: 0.60;
+}
+@media(min-width:453px) and (max-width:768px){
+    .wonder{
+    height: 170px;
+    }
+    .headpart {
+        padding: 0px 25px;
+    }
+}
+@media(min-width:320px) and (max-width:453px){
+    .wonder{
+    height:90px;
+    }
+    .headpart{
+        padding: 20px 25px 20px;
+    }
+    }
+@media(min-width:320px) and (max-width:768px){
+   
+    .logo_img {
+        width: 60px;
+        height: 60px;
+    }
+  
+    .w50{
+        width: 85%;
+        padding: 20px;
+    }
+    .vernagir {
+        font-size: 27px;
+        margin-bottom: 23px;
+    }
+    .text2 {
+        font-size: 20px;
+    }
+    .camerapart{
+        margin-top: 10px;
+    }
+    .text3{
+        font-size: 14px;
+    }
+    .camera{
+        width: 50px;
+        height: 50px;
+    }
+    .site{
+        font-size: 15px;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+}
