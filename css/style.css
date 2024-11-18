@@ -128,14 +128,6 @@ img{
     width: 100px;
     height: 100px;
 }
-.text3{
-    font-size:24px;
-    text-align: center;
-    line-height: 1.5;
-    font-family: vrdz;
-    color: #fff;
-    margin: 20px 0;
-}
 .camerapart{
     display: flex;
     flex-direction: column;
